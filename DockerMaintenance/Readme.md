@@ -3,7 +3,7 @@ This file is specifically written to help manage my Docker.qcow2 file issue. If 
 does not do a good job of managing the space consumed by the Docker.qcow2 file. The script with you are free to 
 fork and modify performs the following:
 
-Markup : * Archive Docker Images
+ * Archive Docker Images
               * Nested bullet
                   * Sub-nested bullet etc
           * Bullet list item 2
