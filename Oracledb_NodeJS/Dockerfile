@@ -7,5 +7,5 @@ FROM store/oracle/database-instantclient:12.2.0.1
 	&& yum clean all
 	ENV PATH=/opt/node-v6.11.1-linux-x64/bin:$PATH
 	ENV NODE_PATH=/opt/node-v6.11.1-linux-x64/lib/node_modules/
- RUN useradd nodejs -p '$6$salt$ZjJzVKp5xtoIl7cfXqZe0mQjWeOpsV2pMiIYpWzkR4ExCBpPdT3mi3eXtG1MSawJnZfXFjBcq0UUmenLq1Cj//'
+# RUN useradd nodejs -p '$6$salt$ZjJzVKp5xtoIl7cfXqZe0mQjWeOpsV2pMiIYpWzkR4ExCBpPdT3mi3eXtG1MSawJnZfXFjBcq0UUmenLq1Cj//'
  RUN npm install -g oracledb
