@@ -4,6 +4,7 @@ does not do a good job of managing the space consumed by the Docker.qcow2 file. 
 fork and modify performs the following:
 
  * Archive Docker Images
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+ * Stops Docker
+ * Deletes qcow2 file
+ * Restarts Docker
+ * Restores Archived Docker Images
