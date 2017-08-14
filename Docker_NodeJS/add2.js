@@ -8,7 +8,7 @@ app.get('/add/', function (req, res) {
     var num2 = array[1];
     var total = (+num1) + (+num2); 
   //res.send('Hello World!');
-    res.send('The answer is: '+total)
+    res.send('Your answer is: '+total)
 })
 
 app.listen(3000, function () {
